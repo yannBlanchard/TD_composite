@@ -1,7 +1,7 @@
 /**
  * Created by yablanch on 09/11/2015.
  */
-public class Forum implements Component{
+public class Forum extends Composite<Theme>{
     String sujet;
 
     public Forum() {
@@ -12,18 +12,4 @@ public class Forum implements Component{
     }
 
 
-    @Override
-    public void add(Component component) {
-
-    }
-
-    @Override
-    public void remove(int i) {
-
-    }
-
-    @Override
-    public int size() {
-        return 0;
-    }
 }
